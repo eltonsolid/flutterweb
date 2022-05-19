@@ -4,11 +4,16 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "assets/AssetManifest.json": "b7b018b8714fa730d74c866b68eb48a9",
+"assets/blank_avatar.png": "dc8b1732c919ca17845aab44dc3afb27",
+"assets/doctor.png": "79242a3b9211ea65ec2d2623d80700f3",
+"assets/doctor_login.jpg": "637c7b8376b5be9d6a732a7534c56616",
+"assets/empty.png": "d326080276e00ebe3ef273d5b524c960",
 "assets/FontManifest.json": "760cc3770462a4d4092771fcdf1361d4",
 "assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
-"assets/NOTICES": "a18c51e45393f2bdc6768bd169da6bc8",
+"assets/NOTICES": "993fc2ce36cbe1e217eda04cd677f4e7",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/packages/eva_icons_flutter/lib/fonts/Eva-Icons.ttf": "a71dbd49ad4a52020638190e30ac52e0",
+"assets/shaders/ink_sparkle.frag": "d0d2b159b2bbd116fea42d72548103f1",
 "canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
 "canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba",
 "canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
@@ -19,9 +24,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "c6c09ddd51def7b487ba11cb824e3a22",
-"/": "c6c09ddd51def7b487ba11cb824e3a22",
-"main.dart.js": "2f1094d21a827ac901cb42ad9e1589a1",
+"index.html": "983020bd57ef4d5c54a680f4f058c77f",
+"/": "983020bd57ef4d5c54a680f4f058c77f",
+"main.dart.js": "f358d752ad0a0d2f83647bebc0867ebd",
 "manifest.json": "7cf53105c55aeca0690dddf57c4e14c9",
 "version.json": "862ff607100f0ce60a8babc4429b440e"
 };
@@ -31,7 +36,6 @@ const RESOURCES = {
 const CORE = [
   "main.dart.js",
 "index.html",
-"assets/NOTICES",
 "assets/AssetManifest.json",
 "assets/FontManifest.json"];
 // During install, the TEMP cache is populated with the application shell files.
